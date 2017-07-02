@@ -39,6 +39,7 @@ public class VentanaPrincipal extends JFrame{
     	
     	setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setLocationRelativeTo(null); // Muestra la ventana en el centro del monitor.
+		setResizable(false);
 		initComponents();
 		pack();
     }
