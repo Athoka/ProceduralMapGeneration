@@ -3,7 +3,7 @@ package main;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
-import graphics.MainWindow;
+import graphics.VentanaPrincipal;
 
 public class Main {
 
@@ -26,7 +26,7 @@ public class Main {
 	       // handle exception
 	    }
 		
-		MainWindow window = new MainWindow();
+		VentanaPrincipal window = new VentanaPrincipal();
 		window.setVisible(true);
 	}
 
